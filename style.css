@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f2f3f5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-form {
+    width: 350px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: -2px 2px 8px #0000002f;
+}
+
+.div-form h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #212121;
+    font-size: 25px;
+}
+
+.div-form .inp {
+    margin-bottom: 15px;
+}
+
+.div-form .inp input {
+    width: 100%;
+    margin-top: 8px;
+    border-radius: 10px;
+    padding: 14px;
+    border: 1px solid #33333346;
+    transition: 0.3s ease;
+}
+
+.div-form .inp input:focus {
+    border-color: #333333b4;
+}
+
+.div-form .inp label {
+    text-transform: capitalize;
+    font-size: 14px;
+    color: #333;
+}
+
+.div-form .forget {
+    text-align: right;
+}
+
+.div-form .forget a {
+    color: #333;
+    font-size: 14px;
+}
+
+.div-form button {
+    width: 100%;
+    margin: 20px 0;
+    padding: 12px 0;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #212121;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.div-form .line {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #888;
+    font-size: 14px;
+    position: relative;
+}
+
+.div-form .line::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #888;
+}
+
+.div-form .line span {
+    z-index: 2;
+    position: relative;
+    background-color: #fff;
+    padding: 0px 5px;
+}
+
+.div-form .more-log {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.div-form .more-log .box {
+    text-align: center;
+    position: relative;
+    top: 0;
+    transition: 0.3s ease;
+}
+
+.div-form .more-log .box:hover {
+    top: -5px;
+}
+
+.div-form .more-log .box a {
+    text-decoration: none;
+}
+
+.div-form .more-log .box i {
+    width: 50px;
+    height: 50px;
+    background-color: #f4f8fb;
+    border-radius: 50%;
+    line-height: 50px;
+    margin-bottom: 5px;
+}
+
+.div-form .more-log .box p {
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.div-form .more-log .box.google i,
+.div-form .more-log .box.google p {
+    color: #cf3e27;
+}
+
+.div-form .more-log .box.facebook i,
+.div-form .more-log .box.facebook p {
+    color: #5177b0;
+}
+
+.div-form .more-log .box.twitter i,
+.div-form .more-log .box.twitter p {
+    color: #30a0f3;
+}
+
+.div-form .more-log .box.apple i,
+.div-form .more-log .box.apple p {
+    color: #202020;
+}
+
+.div-form .sign-up {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.div-form .sign-up a {
+    color: #333;
+    font-size: 14px;
+}
